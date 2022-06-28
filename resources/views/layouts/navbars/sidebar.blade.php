@@ -23,7 +23,7 @@
                         <li >
                             <a href="{{ route('profile.edit')  }}">
                                 <i class="tim-icons icon-single-02"></i>
-                                <p>{{ __('User Profile') }}</p>
+                                <p>{{ __('Perfil de Usuario') }}</p>
                             </a>
                         </li>
                         <li >
@@ -69,12 +69,6 @@
                 <a href="{{ route('pages.rtl') }}">
                     <i class="tim-icons icon-world"></i>
                     <p>{{ __('RTL Support') }}</p>
-                </a>
-            </li>
-            <li class=" bg-info">
-                <a href="{{ route('pages.upgrade') }}">
-                    <i class="tim-icons icon-spaceship"></i>
-                    <p>{{ __('Upgrade to PRO') }}</p>
                 </a>
             </li>
         </ul>
